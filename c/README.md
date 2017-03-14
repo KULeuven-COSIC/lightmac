@@ -1,4 +1,4 @@
-#LightMAC C Implementations
+# LightMAC C Implementations
 
 These folders contain implementations of the following variants of the LightMAC family
 - PRESENT128, with 64 bit tag length and 32 bit counter length
