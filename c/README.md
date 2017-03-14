@@ -10,4 +10,6 @@ These folders contain implementations of the following variants of the LightMAC 
 Included are an implementation of RC4 by Brad Conte which is only used to generate random strings for testing purposes, and an implementation of PRESENT in C by Thomas Siebert.
 
 Example compilation using gcc from the subfolder id_lightmac_64_128:
+```SHELL
 gcc ../src/arcfour.c ../src/lightmac.c ../src/test_lightmac.c ../src/identity.c -I../include/ -I./
+```
